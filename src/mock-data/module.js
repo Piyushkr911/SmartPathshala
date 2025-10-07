@@ -1,6 +1,5 @@
-import { modules } from "./modulesData";
-import { subModules } from "./subModulesData";
-
+import { modules } from "./moduledata";
+import {subModules}from './submoduledata'
 export const getModules = async () => {
     return modules;
 };
